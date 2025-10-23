@@ -18,9 +18,9 @@ const Home = () => {
           growth mindset, I am committed to mastering modern technologies,
           improving software quality, and delivering impactful solutions.
         </p>
-        <div className="mb-4">
+        <div className="flex flex-wrap m-3 ml-0 gap-3">
           <a
-            className="inline-flex items-center justify-center  not-even: font-semibold mr-4 text-purple-500 bg-rose-100 rounded p-1 transition-transform duration-200 hover:scale-110"
+            className="inline-flex items-center justify-center font-semibold text-purple-500 bg-rose-100 rounded p-1 transition-transform duration-200 hover:scale-110"
             href="https://github.com/Dhorq"
             target="_blank"
           >
@@ -28,7 +28,7 @@ const Home = () => {
             Github
           </a>
           <a
-            className="inline-flex items-center justify-center font-semibold mr-4 text-purple-500 bg-rose-100 rounded p-1 transition-transform duration-200 hover:scale-110"
+            className="inline-flex items-center justify-center font-semibold text-purple-500 bg-rose-100 rounded p-1 transition-transform duration-200 hover:scale-110"
             href="https://www.codewars.com/users/Dhorq"
             target="_blank"
           >
@@ -36,7 +36,7 @@ const Home = () => {
             Codewars
           </a>
           <a
-            className="inline-flex items-center justify-center font-semibold mr-4 text-purple-500 bg-rose-100 rounded p-1 transition-transform duration-200 hover:scale-110"
+            className="inline-flex items-center justify-center font-semibold text-purple-500 bg-rose-100 rounded p-1 transition-transform duration-200 hover:scale-110"
             href="https://www.hackerrank.com/profile/ridhorifqy34"
             target="_blank"
           >
@@ -44,9 +44,9 @@ const Home = () => {
             HackerRank
           </a>
         </div>
-        <div className="mb-4">
+        <div className="flex flex-wrap m-3 ml-0 gap-3">
           <a
-            className="inline-flex items-center justify-center font-semibold mr-4 text-blue-500 bg-rose-100 rounded p-1 transition-transform duration-200 hover:scale-110"
+            className="inline-flex items-center justify-center font-semibold text-blue-500 bg-rose-100 rounded p-1 transition-transform duration-200 hover:scale-110"
             href="https://www.linkedin.com/in/ridhorifqymuhammad/"
             target="_blank"
           >
@@ -54,7 +54,7 @@ const Home = () => {
             LinkedIn
           </a>
           <a
-            className="inline-flex items-center justify-center font-semibold mr-4 text-blue-500 bg-rose-100 rounded p-1 transition-transform duration-200 hover:scale-110"
+            className="inline-flex items-center justify-center font-semibold text-blue-500 bg-rose-100 rounded p-1 transition-transform duration-200 hover:scale-110"
             href="https://www.instagram.com/ridhorifqyy"
             target="_blank"
           >
@@ -62,9 +62,9 @@ const Home = () => {
             Instagram
           </a>
         </div>
-        <div className="mb-4">
+        <div className="flex flex-wrap m-3 ml-0 gap-3">
           <a
-            className="inline-flex items-center justify-center font-semibold mr-4 text-red-500 bg-rose-100 rounded p-1 transition-transform duration-200 hover:scale-110"
+            className="inline-flex items-center justify-center font-semibold text-red-500 bg-rose-100 rounded p-1 transition-transform duration-200 hover:scale-110"
             href="https://portfolio-ridho-six.vercel.app/"
             target="_blank"
           >
@@ -72,7 +72,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <div className="w-sm">
+      <div className="md:w-sm">
         <img
           className="w-full h-full rounded-xl transition-transform duration-500 hover:scale-110"
           src={graduationPhoto}
