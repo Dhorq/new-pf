@@ -1,1 +1,69 @@
 @import "tailwindcss";
+
+@theme {
+  @keyframes typing {
+    0% {
+      width: 0ch;
+    }
+    40% {
+      width: 21ch;
+    }
+    60% {
+      width: 21ch;
+    }
+    100% {
+      width: 0ch;
+    }
+  }
+}
+
+.animate-typing {
+  animation: typing 15s steps(20) infinite;
+}
+
+@theme {
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+/* ::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #d1e5ff;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#642bff, #ff22e6);
+  border-radius: 10px;
+} */
+
+.custom-scroll::-webkit-scrollbar {
+  width: 15px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: #d1e5ff;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(#ff0000, #ff22e6);
+  border-radius: 10px;
+}
+
+/* optional untuk Firefox */
+.custom-scroll {
+  scrollbar-color: #ff0000 #ffffff;
+  scrollbar-width: thin;
+}
