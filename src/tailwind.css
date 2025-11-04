@@ -17,6 +17,23 @@
   }
 }
 
+@media (max-width: 640px) {
+  @keyframes typing {
+    0% {
+      width: 0ch;
+    }
+    40% {
+      width: 14ch;
+    }
+    60% {
+      width: 14ch;
+    }
+    100% {
+      width: 0ch;
+    }
+  }
+}
+
 .animate-typing {
   animation: typing 15s steps(20) infinite;
 }

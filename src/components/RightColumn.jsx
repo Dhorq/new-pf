@@ -6,9 +6,9 @@ const RightColumn = () => {
       <div className="col-start-3 col-span-3 text-left h-screen border-black border-l p-20">
         <div className="flex flex-col justify-start py-5 items-center border text-white bg-black border-white h-full gap-5 overflow-y-auto custom-scroll relative">
           <ButtonBack />
-          <div className="text-center flex flex-col gap-5 ">
+          <div className="text-center flex flex-col gap-5">
             <h1 className="text-4xl font-black">About</h1>
-            <div className="max-w-xl border border-white p-5 flex flex-col text-center gap-5">
+            <div className="max-w-xl p-5 flex flex-col text-center gap-5 border-b-1">
               <p className="mb-4 max-w-xl text-justify">
                 Recent graduate in Computer Science from Bina Nusantara
                 University aspiring to build a career in software development.
@@ -27,7 +27,7 @@ const RightColumn = () => {
               <span className="italic">
                 Computer Science (Aiming at Data Analytics in 5th semester)
               </span>
-              <ul className="max-w-xl flex flex-col gap-5 text-justify">
+              <ul className="list-disc list-outside max-w-xl flex flex-col gap-5 text-justify px-5">
                 <li>
                   Participated in the BNCC (Bina Nusantara Computer Club)
                   Challenge titled “Sharing Tech Expertise: UI/UX Design with
@@ -53,7 +53,7 @@ const RightColumn = () => {
                 Dewan Perwakilan Rakyat Republik Indonesia
               </h3>
               <span className="italic">Data Analyst (Internship)</span>
-              <ul className="flex flex-col gap-5 text-justify">
+              <ul className="list-disc list-outside flex flex-col gap-5 text-justify px-5">
                 <li>
                   Visualized data in Tableau Desktop that highlighted key
                   metrics and trends, improving reporting efficiency and
@@ -80,7 +80,7 @@ const RightColumn = () => {
                 Lembaga National Single Window Kementerian Keuangan
               </h3>
               <span className="italic">Data Analyst (Internship)</span>
-              <ul className="flex flex-col gap-5 text-justify">
+              <ul className="list-disc list-outside flex flex-col gap-5 text-justify px-5">
                 <li>
                   Designed and developed a high-fidelity web-based ticketing
                   system mockup in Figma, enabling clear communication of UI/UX

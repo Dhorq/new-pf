@@ -92,13 +92,13 @@ const Home = () => {
                   Projects
                 </Link>
                 <a
-                  className="px-5 py-2 w-[150px] bg-green-500 text-black font-bold text-center rounded transition-transform duration-200 hover:scale-110"
+                  className="px-5 py-2 w-[150px] bg-white text-black font-bold text-center transition-transform duration-200 hover:scale-110"
                   href=""
                 >
                   Contact Me
                 </a>
                 <a
-                  className="px-5 py-2 w-[150px] bg-amber-300 text-black font-bold rounded transition-transform duration-200 hover:scale-110"
+                  className="px-5 py-2 w-[150px] bg-white text-black font-bold transition-transform duration-200 hover:scale-110"
                   href=""
                 >
                   Download CV

@@ -59,7 +59,7 @@ const About = () => {
       </div>
 
       {/* DESKTOP*/}
-      <div className="hidden md:block">
+      <div className="hidden sm:block">
         <div className="grid grid-cols-5 bg-black">
           <div className="col-span-2 max-h-full">
             <img
