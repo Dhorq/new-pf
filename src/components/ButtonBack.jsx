@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { IoChevronBackCircleOutline } from "react-icons/io5";
 
 const Back = () => {
   const navigate = useNavigate();
@@ -9,10 +10,10 @@ const Back = () => {
 
   return (
     <div
-      className="absolute top-4 left-4 z-50 cursor-pointer bg-gray-200 hover:bg-gray-300 text-black px-3 py-1 rounded-md shadow-md transition"
+      className="absolute w-[50px] h-[30px] top-4 left-4 z-50 cursor-pointer bg-white hover:bg-gray-300 text-black text-center flex justify-center items-center px-3 py-1 rounded-md shadow-md transition"
       onClick={handleBack}
     >
-      Back
+      <IoChevronBackCircleOutline />
     </div>
   );
 };
