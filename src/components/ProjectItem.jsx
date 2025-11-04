@@ -1,4 +1,4 @@
-import projectData from "../data/ProjectData.js";
+import projectData from "../data/projectData";
 
 const ProjectItem = () => {
   return (
