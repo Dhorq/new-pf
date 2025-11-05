@@ -1,11 +1,11 @@
-import ButtonBack from "../components/ButtonBack";
+import NavBar from "./NavBar";
 
 const RightColumn = () => {
   return (
     <>
       <div className="col-start-3 col-span-3 text-left h-screen border-black border-l p-20">
-        <div className="flex flex-col justify-start py-5 items-center border text-white bg-black border-white h-full gap-5 overflow-y-auto custom-scroll relative">
-          <ButtonBack />
+        <div className="flex flex-col justify-start py-5 items-center border text-white bg-black border-white h-full gap-5 overflow-y-auto overflow-x-hidden custom-scroll relative">
+          <NavBar />
           <div className="text-center flex flex-col gap-5">
             <h1 className="text-4xl font-black">About</h1>
             <div className="max-w-xl p-5 flex flex-col text-center gap-5 border-b-1">

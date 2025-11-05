@@ -12,9 +12,9 @@ const Home = () => {
             <h1 className="text-2xl mb-5 sm:text-4xl sm:py-2 sm:mb-5 font-black overflow-hidden border-r-3 border-white whitespace-nowrap animate-typing">
               Ridho Rifqy Muhammad
             </h1>
-            <p className="text-xs italic text-red-500 ">
-              <span className="text-red-300">Future </span>
-              Software Engineer
+            <p className="text-[0.425rem] italic text-red-500 se">
+              <span className="text-red-300">FUTURE </span>
+              SOFTWARE ENGINEER
             </p>
           </div>
           <nav className="flex flex-col justify-center items-center gap-5">
@@ -68,7 +68,7 @@ const Home = () => {
                 <h1 className="text-sm sm:text-4xl sm:py-2 sm:mb-5 font-black overflow-hidden border-r-3 border-white whitespace-nowrap animate-typing">
                   Ridho Rifqy Muhammad
                 </h1>
-                <p className="text-xs italic text-red-500">
+                <p className="text-xs italic text-red-500 se">
                   <span className="text-red-300">Future</span> Software Engineer
                 </p>
               </div>

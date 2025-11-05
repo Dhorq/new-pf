@@ -1,4 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap");
+
 @import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+  body {
+    font-family: "Sixtyfour", sans-serif;
+  }
+} */
+
+.se {
+  font-family: "Sixtyfour", sans-serif;
+}
 
 @theme {
   @keyframes typing {
@@ -23,10 +39,10 @@
       width: 0ch;
     }
     40% {
-      width: 14ch;
+      width: 10ch;
     }
     60% {
-      width: 14ch;
+      width: 10ch;
     }
     100% {
       width: 0ch;

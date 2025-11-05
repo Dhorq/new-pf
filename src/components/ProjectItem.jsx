@@ -12,10 +12,10 @@ const ProjectItem = () => {
             <img className="object-cover" src={item.image} alt={item.alt} />
           </div>
           <div className="flex flex-col gap-5 p-5">
-            <h3 className="font-bold text-3xl">{item.title}</h3>
-            <p>{item.description}</p>
+            <h3 className="font-bold text-2xl">{item.title}</h3>
+            <p className="text-sm">{item.description}</p>
             <a
-              className="h-[50px] text-center flex justify-center items-center bg-white text-black font-bold cursor-pointer"
+              className="h-[40px] text-center flex justify-center items-center bg-white text-black font-bold cursor-pointer"
               href={item.link}
               {...(item.hasLink
                 ? { target: "_blank", rel: "noopener noreferrer" }

@@ -3,12 +3,13 @@ import { FaGithub, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
 import ButtonBack from "../components/ButtonBack";
 import graduationPhoto from "../assets/graduationphoto.jpg";
 import "../tailwind.css";
+import NavBar from "../components/NavBar";
 
 const Contact = () => {
   return (
     <>
       <div className="block bg-black md:hidden">
-        <ButtonBack />
+        <NavBar />
         <div className="flex flex-col justify-center items-center border bg-black border-white h-screen gap-5">
           <div className="flex flex-wrap m-3 ml-0 gap-3">
             <a

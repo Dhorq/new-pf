@@ -2,14 +2,15 @@ import graduationPhoto from "../assets/graduationphoto.jpg";
 import ButtonBack from "../components/ButtonBack";
 import "../tailwind.css";
 import ProjectItem from "../components/ProjectItem";
+import NavBar from "../components/NavBar";
 
 const Home = () => {
   return (
     <>
       <div className="block bg-black md:hidden">
-        <div className="flex flex-col justify-start items-center border bg-black border-white h-screen gap-5 relative text-white overflow-auto custom-scroll py-20">
-          <ButtonBack />
-          <h2 className="font-black text-4xl">Projects & Trainings</h2>
+        <div className="flex flex-col justify-start items-center border bg-black border-white h-screen gap-5 relative text-white overflow-auto custom-scroll">
+          <NavBar />
+          <h2 className="font-black text-3xl">Projects & Trainings</h2>
           <ProjectItem />
         </div>
       </div>
@@ -24,8 +25,8 @@ const Home = () => {
             />
           </div>
           <div className="col-start-3 col-span-3 text-left h-screen border-black border-r p-20 ">
-            <div className="flex flex-col justify-start items-center border bg-black border-white h-full gap-5 text-white relative overflow-auto custom-scroll py-20">
-              <ButtonBack />
+            <div className="flex flex-col justify-start items-center border bg-black border-white h-full gap-5 text-white relative overflow-auto overflow-x-hidden custom-scroll">
+              <NavBar />
               <h2 className="font-black text-4xl">Projects & Trainings</h2>
               <ProjectItem />
             </div>
