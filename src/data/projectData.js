@@ -2,7 +2,7 @@ import DFH from "../assets/DFH.png";
 import PFV1 from "../assets/PFV1.png";
 import TOURAVEL from "../assets/TOURAVEL.png";
 import DOUBLEDEGREE from "../assets/DOUBLEDEGREE.png";
-import PACKINGLIST from "../assets/PACKINGLIST.PNG";
+import PACKINGLIST from "../assets/PACKINGLIST.png";
 
 const projectData = [
   {
