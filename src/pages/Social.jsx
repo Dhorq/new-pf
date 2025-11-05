@@ -1,18 +1,15 @@
 import graduationPhoto from "../assets/graduationphoto.jpg";
-import AboutContent from "../components/AboutContent";
-import AboutContentDesktop from "../components/AboutContentDesktop";
+import SocialEach from "../components/SocialEach";
 import "../tailwind.css";
 
-const About = () => {
+const Social = () => {
   return (
     <>
-      {/* MOBILE*/}
-      <div className="md:hidden">
-        <AboutContent />
+      <div className="block bg-black md:hidden">
+        <SocialEach />
       </div>
 
-      {/* DESKTOP*/}
-      <div className="hidden sm:block">
+      <div className="hidden md:block">
         <div className="grid grid-cols-5 bg-black">
           <div className="col-span-2 max-h-full">
             <img
@@ -21,11 +18,13 @@ const About = () => {
               alt="Photo"
             />
           </div>
-          <AboutContentDesktop />
+          <div className="col-start-3 col-span-3 text-left h-screen p-20">
+            <SocialEach />
+          </div>
         </div>
       </div>
     </>
   );
 };
 
-export default About;
+export default Social;

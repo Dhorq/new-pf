@@ -4,13 +4,11 @@ import { Link } from "react-router-dom";
 
 const ResponsiveMenu = ({ open }) => {
   useEffect(() => {
-    const scrollableElements = document.querySelectorAll(
-      ".overflow-auto, .overflow-y-auto"
-    );
-
-    scrollableElements.forEach((el) => {
-      el.style.overflow = open ? "hidden" : "";
-    });
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
 
     return () => {
       document.body.style.overflow = "auto";
@@ -26,7 +24,7 @@ const ResponsiveMenu = ({ open }) => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.3 }}
-          className="absolute w-full h-full bg-black top-14 border border-white overflow-hidden"
+          className="fixed w-full h-full bg-black top-14 border border-white"
         >
           <div className="text-xl font-semibold uppercase bg-black text-white h-full w-full flex justify-center">
             <ul className="flex flex-col justify-center items-center gap-10 pb-20">

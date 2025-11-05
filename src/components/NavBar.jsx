@@ -8,26 +8,19 @@ const NavBar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <>
-      <nav className="flex justify-between text-4xl bg-black text-white h-[50px] items-center px-5 w-screen border-b py-7">
-        {/* Logo Section? */}
+    <div className="w-full bg-black">
+      <nav className="flex justify-between text-4xl text-white h-[50px] items-center px-5 w-full border-b py-7">
         <div>
-          <Link to="/">
+          <Link to="#">
             <IoLogoOctocat />
           </Link>
         </div>
-        {/* Search Section */}
-        {/* Menu Section */}
-        {/* Icons Section  */}
-        {/* Mobile Hamburger Menu Section */}
         <div className="cursor-pointer" onClick={() => setOpen(!open)}>
           <GiHamburgerMenu />
         </div>
       </nav>
-
-      {/* Mobile Sidebar Section */}
       <ResponsiveMenu open={open} />
-    </>
+    </div>
   );
 };
 
